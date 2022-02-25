@@ -77,19 +77,7 @@ private:
 
         ~MapNode()
         {
-            if (nullptr != LeftChild_)
-            {
-                LeftChild_->LastOrder();
-                delete LeftChild_;
-                LeftChild_ = nullptr;
-
-            }
-            if (nullptr != RightChild_)
-            {
-                RightChild_->LastOrder();
-                delete RightChild_;
-                RightChild_ = nullptr;
-            }
+            
         }
     public:
         bool Insert(const GamePair& _Pair)
