@@ -11,6 +11,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameContents", "GameContent
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameApp", "GameApp\GameApp.vcxproj", "{26589F1A-D16C-4908-8C35-161DCEE27945}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Level0", "Level0", "{84ACF6DC-D74C-45A9-976C-61C5C934DAE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Level1", "Level1", "{87721039-7EBC-4F08-9717-F473299524FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Level2", "Level2", "{54172582-038A-435D-9635-22122B5BC513}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Level3", "Level3", "{698F49E3-BF1B-4DCF-A4C1-D3104A688123}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -54,6 +62,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{713B4A18-F11D-42D8-A23C-283CED51983D} = {84ACF6DC-D74C-45A9-976C-61C5C934DAE1}
+		{2CDE5053-9CE4-4EF7-9AF7-AA8187205361} = {87721039-7EBC-4F08-9717-F473299524FC}
+		{46DC5976-D3A9-4DF5-82B0-AD23A185E233} = {54172582-038A-435D-9635-22122B5BC513}
+		{26589F1A-D16C-4908-8C35-161DCEE27945} = {698F49E3-BF1B-4DCF-A4C1-D3104A688123}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E101874-D875-4D24-8D1D-959C508F0211}
